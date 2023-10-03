@@ -1,9 +1,11 @@
-# Deploying Two Instances of Azure OpenAI ChatGPT with Private Endpoint to Test Connectivity and DR using Terraform
+# Deploying Two Instances of Azure OpenAI ChatGPT with a Private Endpoint to Test Connectivity and DR using Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.5+-blue.svg)](https://www.terraform.io/downloads.html)
 
 ## Overview
 
-Deploying two Azure OpenAI service with ChatGPT with Private Endpoint in the MAIN and DR regions 
+We are deploying two Azure OpenAI services with ChatGPT with Private Endpoint in the MAIN and DR regions.
+
+The code is designed to run each piece in the same or different Azure Subscriptions.
 
 ## Code creates:
 
